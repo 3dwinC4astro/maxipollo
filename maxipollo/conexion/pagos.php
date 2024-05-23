@@ -111,7 +111,8 @@
 
         <input type="hidden" id="idUsuario" name="idUsuario"  value="<?php echo $idUsuario; ?>" required>
 
-        <input type="hidden" id="fecha" name="fecha" value="<?php echo date('Y-m-d'); ?>" required>
+        <input type="hidden" id="fecha" name="fecha" value="<?php echo date('Y-m-d H:i:s', time() - 5 * 3600); ?>" required>
+
 
 <input type="submit" value="Pagar">
 
