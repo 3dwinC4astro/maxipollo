@@ -9,7 +9,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Maxipollo Admin</title>
-        <link rel="icon" type="image/x-icon" href="../assets/images/hero-banner.png" />
+        <link rel="icon" type="image/x-icon" href="/../assets/images/hero-banner.png" />
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
@@ -30,10 +30,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">Settings</a></li>
-                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                       
+                        <li><a class="dropdown-item" href="/../conexion/cerrarSesion.php">Salir</a></li>
                     </ul>
                 </li>
             </ul>
@@ -144,7 +142,7 @@ if(isset($_POST['ID'])) {
 
 
 <div class="form-container">
-  <form class="form" method="post" action="../conexion/editarTiquetera.php">
+  <form class="form" method="post" action="/../conexion/editarTiquetera.php">
     <div class="form-group">
     <input required="" name="ID" id="ID" type="hidden" value="<?php echo $ID; ?>">
       <label for="text">Nombre de tiquetera</label>
