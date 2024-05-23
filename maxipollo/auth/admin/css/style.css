@@ -1,15 +1,17 @@
 .card {
   width: calc(100% - 20px); /* Establece el ancho como el 100% menos 20px */
   min-width: 10px; /* Establece el ancho mínimo en 10px */
+  min-height: 150px;
   height: auto;
   color: #000000;
-  background-color: #E88E5A;
+  background-color: #ffffff;
   border: none;
   border-radius: 10px;
   margin-top: 20px; 
   box-sizing: border-box;
   font-family: inherit;
   padding-bottom: 15px;
+  border: #000000 1px solid;
 }
 
 
