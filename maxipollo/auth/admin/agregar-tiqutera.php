@@ -9,7 +9,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Maxipollo Admin</title>
-        <link rel="icon" type="image/x-icon" href="/maxipollo/assets/images/hero-banner.png" />
+        <link rel="icon" type="image/x-icon" href="/../assets/images/hero-banner.png" />
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
@@ -18,7 +18,7 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="/maxipollo/auth/admin/admin.php?">Maxipollo</a>
+            <a class="navbar-brand ps-3" href="admin.php?">Maxipollo</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -44,17 +44,17 @@
                     
                             
                             <div class="sb-sidenav-menu-heading">Servicios</div>
-                            <a class="nav-link" href="/maxipollo/auth/admin/admin.php">
+                            <a class="nav-link" href="admin.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tiqueteras
                             </a>
                             
                             </a>
-                        <a class="nav-link" href="/maxipollo/auth/admin/clientes.php">
+                        <a class="nav-link" href="clientes.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Clientes
                         </a>
-                        <a class="nav-link" href="/maxipollo/auth/admin/usuarios.php">
+                        <a class="nav-link" href="usuarios.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Usuarios
                         </a>
@@ -70,7 +70,7 @@ session_start();
     // Verificar si el usuario ha iniciado sesión
     if (!isset($_SESSION['Nombre_Usuario'])) {
         // Si no ha iniciado sesión, redirigirlo al formulario de inicio de sesión
-        header("Location: /maxipollo/auth/login.php");
+        header("Location: /../auth/login.php");
         exit(); // Asegurar que el script se detenga después de la redirección
     }
 
@@ -87,8 +87,8 @@ session_start();
             <div id="layoutSidenav_content">
                 <main>
                     
-                <a href="/maxipollo/auth/admin/admin.php">
-    <img src="/maxipollo/auth/admin/assets/img/atras.png" height="40px" width="50px">
+                <a href="/../auth/admin/admin.php">
+    <img src="/../auth/admin/assets/img/atras.png" height="40px" width="50px">
 </a>
 
                     <div class="container-fluid px-4">
@@ -98,7 +98,7 @@ session_start();
 
 
                         <div class="form-container">
-      <form class="form" method="post" action="/maxipollo/conexion/agregarTiquetera.php">
+      <form class="form" method="post" action="/../conexion/agregarTiquetera.php">
         <div class="form-group">
           <label for="text">Nombre de tiquetera</label>
           <input required="" name="Nombre_Categoria" id="Nombre_Categoria" type="text">
