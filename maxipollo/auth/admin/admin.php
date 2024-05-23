@@ -99,7 +99,7 @@
                                 echo '<input type="hidden" name="ID" value="' . $row['ID'] . '">';
                                 echo '<button type="submit" class="eliminar">Eliminar</button>';
                                 echo '</form>';
-                                echo '<form action="/../conexion/editar-tiquetera.php" method="POST">';
+                                echo '<form action="editar-tiquetera.php" method="POST">';
                                 echo '<input type="hidden" name="ID" value="' . $row['ID'] . '" >';
                                 echo '<button type="submit" class="editar">Editar</button>';
                                 echo '</form>';
