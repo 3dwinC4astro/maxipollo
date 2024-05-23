@@ -3,18 +3,17 @@
   min-width: 10px; /* Establece el ancho mínimo en 10px */
   min-height: 150px;
   height: auto;
-  color: #000000;
-  background-color: #ffffff;
-  border: none;
+  border: 1px solid #000000;
   border-radius: 10px;
   margin-top: 20px; 
   box-sizing: border-box;
   font-family: inherit;
   padding-bottom: 15px;
-  border: #000000 1px solid;
+
+  background: linear-gradient(to bottom right, white 88%, hsl(32, 100%, 59%) 50%);
+  color: #000000;
+  transition: background 0.7s;
 }
-
-
 
 .card span {
   font-weight: 600;
