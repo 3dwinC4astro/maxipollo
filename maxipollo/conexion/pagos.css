@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+
+.container_pagos{
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 20px;
+    width: 250px;
+    margin-top: 5px ;
+    border-radius: 2%;
+    font-size: 17px;
+}
