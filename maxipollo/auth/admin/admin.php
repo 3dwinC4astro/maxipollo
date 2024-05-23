@@ -95,11 +95,11 @@
                                 echo '<p class="job">' . $row['Descripcion'] . '</p>';
                                 echo '<p class="job">$' . number_format($row['precio'], 0, ',', '.') . '</p>';
                                 echo '<div class="botones">';
-                                echo '<form action="../conexion/eliminarTiquetera.php" method="POST">';
+                                echo '<form action="/../conexion/eliminarTiquetera.php" method="POST">';
                                 echo '<input type="hidden" name="ID" value="' . $row['ID'] . '">';
                                 echo '<button type="submit" class="eliminar">Eliminar</button>';
                                 echo '</form>';
-                                echo '<form action="editar-tiquetera.php" method="POST">';
+                                echo '<form action="/../conexion/editar-tiquetera.php" method="POST">';
                                 echo '<input type="hidden" name="ID" value="' . $row['ID'] . '" >';
                                 echo '<button type="submit" class="editar">Editar</button>';
                                 echo '</form>';
