@@ -66,7 +66,7 @@
         </ul>
       </nav>
 
-<a href="./auth/login.php"> <button class="btn btn-hover">Tiquetera</button></a>
+<a href="./auth/login.php"> <button class="btn btn-hover">Iniciar sesión</button></a>
        
 
         <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
