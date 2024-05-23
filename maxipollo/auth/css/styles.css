@@ -43,6 +43,7 @@ padding-left: 20px;
 .card {
   border: none;
   background-color: #fff;
+  border: #000000 1px solid;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
