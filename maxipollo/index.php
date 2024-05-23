@@ -276,7 +276,7 @@
               <li class="about-item">
                 <ion-icon name="checkmark-outline"></ion-icon>
 
-                <span class="span">Elm mejor sazon</span>
+                <span class="span">El mejor sazón</span>
               </li>
 
           
